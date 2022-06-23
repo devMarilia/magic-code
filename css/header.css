@@ -49,7 +49,7 @@ main {
         justify-content: center;
         width: 100%;
     }
-    img {
+    .items > img {
         display: none;
     }
 }
