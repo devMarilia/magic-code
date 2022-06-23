@@ -16,5 +16,17 @@ body{
     flex-direction: column;
     font-family: 'karla', sans-serif;
     position:relative;
-    background:rgb(85, 44, 8);
+    background-color: #000;
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-right: 10px;
 }
