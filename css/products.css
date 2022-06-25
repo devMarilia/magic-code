@@ -45,6 +45,19 @@
     padding: 10px;
     margin: 10px;
 }
+.flex-cards {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+.about-cards > p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: auto;
+}
+.infomation-card {
+    padding: 1rem;
+}
 
 .products .container-cards .card .image-card {
     width: 50%;
@@ -62,7 +75,13 @@
      .container-cards  {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
+    .flex-cards {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+   
 
 }
 
