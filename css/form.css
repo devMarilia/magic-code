@@ -1,51 +1,125 @@
-.constainer-contact {
+.container-contact {
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
     margin: auto;
 
 }
-  h3 {
-    color: black;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.5rem;
-}
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.content-infomation-form .img-form img{
+    width: 40%;
+    margin: auto;
 
-  padding: 20px;
-  margin: auto;
-  border: solid 1px #eee;
-  height: 70%;
-  background-color: var(--primary-color);
-    border-radius: 24px;
-    height: 24rem;
 }
-.contact-form form input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 50px;
-  border:0;
-  border-bottom:1px solid #eee;
+.content-infomation-form  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
 }
-.contact-form form textarea {
-  width: 50%;
-  padding: 10px;
-  margin: 10px;
+.content-infomation-form .img-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
-.contact-form form button {
-  width: 50%;
-  padding: 10px;
-  margin: 10px;
+.container-contact   h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+  color: #000;
+}
+.container-contact   h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    color: #000;
+}
+.content-form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+
+}
+.content-form p {
+  color: rgb(29, 26, 26);
+  width: 80%;
+  text-align: center;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-contact label {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.form-contact button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.form-contact button:hover {
+    background-color: var(--primary-color);
+}
+.form-contact button:active {
+    background-color: var(--primary-color);
+}
+.form-contact button:focus {
+    background-color: #ccc;
+}
+.form-contact button:disabled {
+    background-color: #ccc;
+}
+.form-contact button:disabled:hover {
+    background-color: #ccc;
+}
+.form-contact button:disabled:active {
+    background-color: #ccc;
+}
+.form-contact button:disabled:focus {
+    background-color: #ccc;
+}
+.form-contact button:disabled:disabled {
+    background-color: #ccc;
+}
+.form-contact button:disabled:disabled:hover {
+    background-color: #ccc;
+}
+.form-contact button:disabled:disabled:active {
+    background-color: #ccc;
+}
+@media screen and (max-width: 768px) {
+  .content-form {
+    flex-direction: column;
+  }
+
   
 }
-.contact-form form button:hover {
-  background-color: #f5f5f5;
-}
+
