@@ -1,17 +1,20 @@
 button {
-    background-color: var( --secundary-color);
-    border: none;
-    color: white;
-    padding: 15px 25px;
+   background-color: #000;
+    
+    border: 1px solid var(--primary-color); 
+    padding: 0.5rem;
+    color: var(--primary-color);
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 40%;
+    width: 25%;
     border-radius: 50px;
 }
 button:hover {
-    background-color: var( --primary-color);
+    background-color: var(--primary-color);
+    color : #fff;
+    border: 1px solid #000;
 }

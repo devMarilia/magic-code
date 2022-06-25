@@ -3,20 +3,26 @@
     margin-top: 20px;
     color: #000;
     width: 100%;
-    height: 80vh;
+    height: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     margin: auto;
 }
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 .about-img {
-    /* width: 50%;
-    height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 .about-img .image-about {
     width: 50%;
@@ -28,8 +34,7 @@
     flex-direction: column;
   }
     .about-img {
-        width: 100%;
-        height: 100%;
+        display: none;
     }
 }
     

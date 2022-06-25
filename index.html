@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Magic Code</title>
 </head>
 
@@ -30,49 +31,75 @@
             </div>
             <div class="items-title">
                 <h1>Magic Code</h1>
-                <button>Enviar</button>
+                <button class="btn">Enviar</button>
             </div>
         </main>
         <!-- //About -->
         <div class="about">
-            <div class="about-img">
-                <img class="image-about" src="img/coffe.png" alt="logo">
-            </div>
-            <div>
+            <h3>About</h3>
+            <div class="about-content">
+             <div class="about-text">
                 <h2>About</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.  Quisquam, quidem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam, quidem.
                 </p>
             </div>
+            <div class="about-img">
+                <img class="image-about" src="img/image004.png" alt="logo">
+            </div>
         </div>
+    </div>
         <div class="products">
             <h3>Products</h3>
             <div class="container-cards">
                 <div class="card">
-                    <img src="img/image003.png" alt="logo" class="image-card ">
+                    <img src="img/coffe.png" alt="logo" class="image-card ">
                     <h4>Coffe</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing
                     </p>
+                    <button  class="btn-card"> Saiba mais</button>
                 </div>
                 <div class="card">
-                    <img src="img/image003.png" alt="logo" class="image-card ">
+                    <img src="img/coffe.png" alt="logo" class="image-card ">
                     <h4>Coffe</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing
                     </p>
+                    <button  class="btn-card"> Saiba mais</button>
                 </div>
                 <div class="card">
-                    <img src="img/image003.png" alt="logo" class="image-card ">
+                    <img src="img/coffe.png" alt="logo" class="image-card ">
                     <h4>Coffe</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur
+                        Lorem ipsum dolor sit amet consectetur adipisicing
                     </p>
+                    <button  class="btn-card">Saiba mais</button>
                 </div>
             </div>
-            <button>SAIBA MAIS</button>
+           
         </div>
+        <!-- <!contact--> 
+        <div class="constainer-contact">
+            <h3>Contact</h3>
+            <div class="contact-form" >
+                <form action="POST">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Telefone">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+        </div>
+        <script src="./script.js"></script>
 </body>
 
 </html>
